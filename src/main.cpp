@@ -167,7 +167,7 @@ int main() {
 
     osock = new MicroOcpp::MOcppMongooseClient(&mgr,
         "ws://3.35.109.93:8080",
-        "wsuser/1.6/S-A-01/SN123456789",
+        "wsuser/SN123456789",
         "",
         "",
         filesystem,
