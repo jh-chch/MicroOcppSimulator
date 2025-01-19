@@ -166,7 +166,7 @@ int main() {
     mg_http_listen(&mgr, api_url, http_serve, (void*)api_url);     // Create listening connection
 
     osock = new MicroOcpp::MOcppMongooseClient(&mgr,
-        "ws://3.35.109.93:8080",
+        "wss://evocpp.kro.kr",
         "wsuser/SN123456789",
         "",
         "",
